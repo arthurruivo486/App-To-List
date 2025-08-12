@@ -1,0 +1,16 @@
+{
+  "name": "back-end-tolist",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev":"node src/index.js"
+  },
+  "keywords": [],
+  "author": "Arthur Ruivo",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
