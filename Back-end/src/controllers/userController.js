@@ -1,4 +1,4 @@
-import { findAll, create, remove, update, updateRole } from "../models/userModel.js";
+import { findAll, create, remove, update,  } from "../models/userModel.js";
 import { z } from "zod"
 
 const userSchema = z.object({

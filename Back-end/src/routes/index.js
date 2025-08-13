@@ -1,9 +1,10 @@
 import express from 'express';
 const router = express.Router();
 
-import userRoutes from './userRoutes.js';
+import userRoute from './userRoute.js';
+import taskRoute from './taskRoute.js'
 
-router.use('/', userRoutes);
-
+router.use('/', userRoute);
+router.use('/', taskRoute);
 
 export default router;
